@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+button{
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Poppins";
+    padding: 20px;
+}
+
+header{
+    background-color: #232536;
+    /* height: 100vh; */
+}
+
+.container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 460px;
+}
+
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.388);
+}
+
+.nav-list{
+    border-top: 5px solid transparent;
+    padding-top: 10px;
+    margin-top: -15px;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+}
+
+.nav-list:hover{
+    border-top: 5px solid #FFA155;
+    border-radius: 3px 3px 0 0;
+}
+
+.logo{
+    width: 122px;
+    height: 24.71px;
+    top: 27px;
+    left: 160px;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-top: -15px;
+}
+
+.nav_liink{
+    color: rgba(255, 211, 175, 1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.big-div-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+    gap: 93px;
+}
+
+.div-left{
+    width: 624px;
+    height: 420px;
+}
+
+.head-name{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.head-discription{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.521);
+    width: 528px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid #0c25ff;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(68, 76, 252, 0.8);
+}
+
+span img{
+    margin-left: 10px;
+}
+
+.last-tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.link-p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.521);
+}
+
+.link-p2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.section1{
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.sect-name{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    margin-left: 65px;
+}
+
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 92px;
+    margin-bottom: 48px;
+    margin-top: 16px;
+    /* margin-left: 50px; */
+}
+
+.texts-text1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    width: 640px;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 65px;
+    gap: 11px;
+    margin-bottom: 48px;
+}
+
+.nimadir{
+    display: flex;
+    align-items: center;
+    margin-right: -10px;
+}
+
+.texts-text2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.texts-text3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 547px;
+}
+
+.wait-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 66px;
+}
+
+.container-wait{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 492px;
+}
+
+.wait-num{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    margin-bottom: -7px;
+}
+
+.section2{
+    background-color: rgba(236, 248, 249, 1);
+}
+
+.container-exp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 96px;
+    margin-top: 96px;
+    padding-bottom: 96px;
+    gap: 100px;
+}
+
+.exp-right-div{
+    width: 624px;
+    height: 364px;
+}
+
+.exp-right-name{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.exp-right-discription{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(93, 95, 109, 1);
+}
+
+.exp-left-disc{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(93, 95, 109, 1);
+    width: 303px;
+}
+
+.exp-left{
+    display: flex;
+    padding: 32px;
+    background-color: #FFFFFF;
+}
+
+.exp-left-img{
+    width: 47px;
+    height: 47px;
+    margin-right: 29px;
+}
+
+.section3{
+    background-color: rgba(255, 230, 210, 1);
+    /* padding: 96px; */
+    padding-top: 96px;
+    padding-bottom: 96px;
+    /* padding-left: 85px; */
+}
+
+.big-service-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-left: 50px;
+}
+
+.service-divs{
+    box-shadow: 0px 60px 68px -30px rgba(255, 161, 85, 0.35);
+    background-color: #FFFFFF;
+    padding: 48px;
+    width: 405px;
+    height: 335px;
+}
+
+.service button{
+    margin-bottom: 80px;
+    margin-left: 85px;
+}
+
+.service button:hover{
+    color: #FFFFFF;
+    background-color: #0c25ff;
+}
+
+.service-name{
+    margin-left: 85px;
+}
+
+.services-name{
+    margin-top: 12px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: left;
+    margin-left: 85px;
+    width: 777px;
+}
+
+.service-discription{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.service-div-name{
+    margin-top: 16px;
+}
+
+.service-link{
+    color: rgba(68, 76, 252, 1);
+}
